@@ -1,0 +1,9 @@
+#comment
+name="Razzaq"
+age=22
+print("name is",name,"and age is",age)
+print(type(name))
+print(type(age))
+'''
+This is a multi-line comment
+'''
