@@ -1,0 +1,4 @@
+a=int(5.0+10.5)
+print(a)
+b=bool(10)
+print(b)
