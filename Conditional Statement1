@@ -1,0 +1,8 @@
+Colour=input("Enter your Colour: ")
+if Colour=="red":
+    print("Stop")
+elif Colour=="yellow":
+    print("Wait")
+elif Colour=="green":
+    print("Go")    
+    
