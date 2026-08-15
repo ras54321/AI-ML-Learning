@@ -1,0 +1,6 @@
+word="artificial intelligence"
+count=0
+for i in word:
+    if i=="i":
+        count+=1
+print(count)
