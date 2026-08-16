@@ -1,0 +1,7 @@
+tup=(1,2,3,4)
+print(tup)
+print(tup[0:3])
+sum=0
+for i in tup:
+    sum+=i
+print(sum)    
