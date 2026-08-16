@@ -1,0 +1,6 @@
+nums=[1,2,3,10,4]
+idx=0
+for i in nums:
+    if(nums[idx]==10):
+        print(idx)
+    idx+=1
