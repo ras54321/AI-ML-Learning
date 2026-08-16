@@ -1,0 +1,4 @@
+nums={1,2,3,3,3}
+print(nums)
+nums=set()
+print(nums)
