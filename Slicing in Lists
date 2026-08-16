@@ -1,0 +1,3 @@
+marks=[85, 90, 78, 92, 88]
+print(marks[1:5])
+print(marks[-4:-2])
