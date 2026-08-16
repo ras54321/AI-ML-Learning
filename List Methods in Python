@@ -1,0 +1,9 @@
+nums=[10,20,15,25]
+nums.append(30)
+print(nums)
+nums.insert(2,18)
+print(nums)
+nums.sort()
+print(nums)
+nums.reverse()
+print(nums)
