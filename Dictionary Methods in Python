@@ -1,0 +1,13 @@
+info={
+    "name":"Razzaq",
+    "cgpa":7.72,
+    "subjects":["Python","Java","C++"]
+}
+print(info.keys())
+print(info.values())
+print(info.items())
+print(info.get("name"))
+info.update({
+    "cgpa":8.0
+})
+print(info)
