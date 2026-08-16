@@ -1,0 +1,6 @@
+info={
+    "name":"Razzaq",
+    "cgpa":7.72,
+    "subjects":["Python","Java","C++"]
+}
+print(info)
