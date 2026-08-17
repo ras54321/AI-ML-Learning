@@ -1,0 +1,9 @@
+class student:
+    def __init__(self,name,cgpa):#Parameterized Constructor
+        self.name=name
+        self.cgpa=cgpa
+    def get_cgpa(self):
+        return self.cgpa   
+stu1=student("Razzaq",7.72)
+print(f"{stu1.name} got {stu1.get_cgpa()}")        
+
