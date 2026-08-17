@@ -1,0 +1,11 @@
+class student:
+    college_name="ABC" #class
+    def __init__(self,name,gpa): #instance
+       self.name=name
+       self.gpa=gpa
+stu1=student("Razzaq",7.72)
+print(stu1.name) 
+print(student.college_name)   
+                   
+       
+
