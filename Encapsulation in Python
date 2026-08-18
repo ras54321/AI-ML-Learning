@@ -1,0 +1,10 @@
+class BankAccount: #Encapsulation
+    def __init__(self,name,balance):
+        self.name=name#public
+        self.__balance=balance#protected
+    def get_balance(self):
+        return self.__balance
+    def set_balance(self,newbalance):
+        self.__balance=newbalance
+b1=BankAccount("Razzaq",1000)
+print(b1.name,b1.get_balance())
