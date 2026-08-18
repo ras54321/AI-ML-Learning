@@ -1,0 +1,10 @@
+class Teacher:
+    def designation(self):
+        print("I am a teacher")
+class Accountant:
+    def designation(self):
+        print("I am an accountant")
+t1=Teacher()
+t1.designation()
+a1=Accountant()
+a1.designation()                
