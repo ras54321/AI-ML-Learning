@@ -1,0 +1,10 @@
+class employee:
+    def __init__(self,name):
+        self.name=name
+    def designation(self):
+        print(f"{self.name} is an employee")
+class teacher(employee):
+    def designation(self):
+        print(f"{self.name} is a teacher")
+t1=teacher("Razzaq")
+t1.designation()            
