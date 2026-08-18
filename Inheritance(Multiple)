@@ -1,0 +1,13 @@
+class teacher:
+    def __init__(self,subject):
+        self.subject=subject
+class student:
+    def __init__(self,gpa):
+        self.gpa=gpa
+class techassistant(teacher,student):
+    def __init__(self,subject,gpa,department):
+        self.department=department
+        super().__init__(subject)
+        student.__init__(self,gpa)
+t1=techassistant("Maths",3.5,"Science")        
+print(f"Tech Assistant Subject: {t1.subject}, GPA: {t1.gpa}, Department: {t1.department}")                    
