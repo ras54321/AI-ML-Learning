@@ -1,0 +1,15 @@
+from abc import ABC,abstractmethod
+class Animal(ABC):
+    @abstractmethod
+    def make_sound(self):
+        pass
+class Lion(Animal):
+    def make_sound(self):
+        print("Roar")
+class Dog(Animal):
+    def make_sound(self):
+        print("Bark")        
+l1=Lion()
+l1.make_sound()        
+d1=Dog()
+d1.make_sound()        
