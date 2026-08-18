@@ -1,0 +1,15 @@
+class employee:
+    start_time="10:00 AM"
+    end_time="5:00 PM"
+class teacher(employee):
+    def __init__(self,subject):
+        self.subject=subject
+class admin_staff(employee):
+    def __init__(self,department):
+        self.department=department
+t1=teacher("Maths")
+t1.start_time="9:00 AM"
+print(f"Teacher Start Time: {t1.start_time}, End Time: {t1.end_time}, Subject: {t1.subject}") 
+a1=admin_staff("Manager")
+print(f"Admin Staff Start Time: {a1.start_time}, End Time: {a1.end_time}, Department: {a1.department}")
+       
