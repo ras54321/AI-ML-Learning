@@ -1,0 +1,9 @@
+try:
+    x=int(input("Enter a number"))
+    ans=10/x
+except ZeroDivisionError:  
+    print("divide by 0 is not allowed") 
+except ValueError:
+    print("not a valid number")
+else:
+    print(f"the ans is: {ans}")         
