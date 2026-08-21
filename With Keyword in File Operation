@@ -1,0 +1,3 @@
+with open("FileIO.txt","r") as f: #it closes the file automatically
+    data=f.read()
+    print(data)
