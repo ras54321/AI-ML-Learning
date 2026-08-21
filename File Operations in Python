@@ -1,0 +1,18 @@
+#f=open("FileIO.txt","r") only read mode
+#data=f.read()
+#print(data)
+#f=open("FileIO.txt","w") only write mode
+#f.write("Hey! This is my first file operation in python")
+#f.close()
+#f=open("FileIO2.txt","x") create a new file
+#f.write("Hey! This is my second file operation in python")
+#f.close()
+#f=open("FileIO2.txt","a") appending at last
+#f.write("\nHey! This is my third file operation in python")
+#f.close()
+#f=open("FileIO.txt","r+") points to the first character of the file
+#f.write("123")
+#f=open("FileIO.txt","a+") points to the end of the file
+#f.write("123")
+f=open("FileIO2.txt","w+") #truncate the whole file
+f.write("123")
