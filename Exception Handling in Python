@@ -6,4 +6,6 @@ except ZeroDivisionError:
 except ValueError:
     print("not a valid number")
 else:
-    print(f"the ans is: {ans}")         
+    print(f"the ans is: {ans}")
+finally:
+    print("end of program")             
