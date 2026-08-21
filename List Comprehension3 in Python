@@ -1,0 +1,3 @@
+words=["python","java","cpp"]
+words=[val.upper() for val in words]
+print(words)
